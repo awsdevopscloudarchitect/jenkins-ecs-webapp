@@ -11,7 +11,7 @@ pipeline {
         AWS_ACCOUNT_ID = '466401735110'
         ECR_REPO = 'jenkins-ecs-app'
         ECS_CLUSTER = 'jenkins-ecs-cluster'
-        ECS_SERVICE = 'jenkins-ecs-webapp-service'
+        ECS_SERVICE = 'jenkins-ecs-webapp-task'
         TASK_FAMILY = 'jenkins-ecs-webapp-task'
         CONTAINER_NAME = 'webapp'
     }
