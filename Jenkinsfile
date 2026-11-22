@@ -12,7 +12,7 @@ pipeline {
         ECR_REPO = 'jenkins-ecs-app'
         ECS_CLUSTER = 'jenkins-ecs-cluster'
         ECS_SERVICE = 'jenkins-ecs-webapp-task'
-        TASK_FAMILY = 'jenkins-ecs-webapp-task'
+        TASK_FAMILY = 'jenkins-ecs-task'
         CONTAINER_NAME = 'webapp'
     }
 
