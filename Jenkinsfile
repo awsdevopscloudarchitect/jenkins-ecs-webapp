@@ -13,7 +13,7 @@ pipeline {
         ECS_CLUSTER = 'jenkins-ecs-cluster'
         ECS_SERVICE = 'jenkins-ecs-webapp-task1'
         TASK_FAMILY = 'jenkins-ecs-task'
-        CONTAINER_NAME = 'webapp'
+        CONTAINER_NAME = 'nginx-container'
     }
 
     stages {
